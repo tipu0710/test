@@ -1,1 +1,53 @@
-VXCD the great mental
+Student@Student-PC MINGW64 ~/desktop/gitdemo (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/tipu0710/test
+ * branch            master     -> FETCH_HEAD
+   d23990e..2310f3c  master     -> origin/master
+Updating d23990e..2310f3c
+Fast-forward
+ new.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new.txt
+
+Student@Student-PC MINGW64 ~/desktop/gitdemo (master)
+$ ls
+index.html  new.txt
+
+Student@Student-PC MINGW64 ~/desktop/gitdemo (master)
+$ git log
+commit 2310f3ca5e6274e49c141b954c4e8d1ab89131ab (HEAD -> master, origin/master)
+Author: Tipu Sultan <tsultan0710@gmail.com>
+Date:   Wed Oct 25 19:52:21 2017 +0600
+
+    Create new.txt
+
+    mental added
+
+commit d23990e8675653150fddcfb214bfa173db6e5760
+Author: tipu0710 <tsultan0710@gmail.com>
+Date:   Wed Oct 25 19:35:50 2017 +0600
+
+    vxcd added
+
+commit 9dbe3d59001d76edf61d3d57bfdd5c963bb1d0ac
+Author: tipu0710 <tsultan0710@gmail.com>
+Date:   Wed Oct 25 19:33:23 2017 +0600
+
+    new line added
+
+commit b5a280cdded19a83c8a9b9accc5baf01092b5aac
+Author: tipu0710 <tsultan0710@gmail.com>
+Date:   Wed Oct 25 19:27:11 2017 +0600
+
+    index file created
+
+Student@Student-PC MINGW64 ~/desktop/gitdemo (master)
+$ clear
+
+Student@Student-PC MINGW64 ~/desktop/gitdemo (master)
+$
+
